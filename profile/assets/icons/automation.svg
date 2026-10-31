@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+<style>
+  .s{fill:none;stroke:#14B8A6;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+  .f{fill:#14B8A6}
+  .gear{transform-origin:28px 28px;animation:spin 8s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}
+  @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect x="1" y="1" width="54" height="54" rx="14" fill="#14B8A6" fill-opacity=".12" stroke="#14B8A6" stroke-opacity=".35"/>
+
+<g class="gear"><circle class="s" cx="28" cy="28" r="7"/>
+<path class="s" d="M28 15v4M28 37v4M15 28h4M37 28h4M18.8 18.8l2.8 2.8M34.4 34.4l2.8 2.8M18.8 37.2l2.8-2.8M34.4 21.6l2.8-2.8"/></g>
+<circle class="f" cx="28" cy="28" r="2.5"/>
+
+</svg>

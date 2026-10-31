@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="140" viewBox="0 0 1200 140">
+<style>
+  .t{opacity:0;animation:up .8s cubic-bezier(.2,.7,.2,1) forwards}
+  .bar{transform-box:fill-box;transform-origin:left;transform:scaleX(0);animation:grow .8s ease-out forwards}
+  @keyframes up{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+  @keyframes grow{to{transform:scaleX(1)}}
+  @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"><g class="t" style="animation-delay:0.00s">
+<text x="40" y="78" font-size="44" font-weight="700" fill="#0B1F24">70%+</text>
+<text x="40" y="106" font-size="15" fill="#4A6066">support queries automated</text></g>
+<rect class="bar" style="animation-delay:0.30s" x="40" y="28" width="28" height="3" rx="1.5" fill="#14B8A6"/><line x1="320" y1="30" x2="320" y2="110" stroke="#0B1F24" stroke-opacity=".12"/><g class="t" style="animation-delay:0.25s">
+<text x="340" y="78" font-size="44" font-weight="700" fill="#0B1F24">4.5x</text>
+<text x="340" y="106" font-size="15" fill="#4A6066">faster legal review</text></g>
+<rect class="bar" style="animation-delay:0.55s" x="340" y="28" width="28" height="3" rx="1.5" fill="#14B8A6"/><line x1="620" y1="30" x2="620" y2="110" stroke="#0B1F24" stroke-opacity=".12"/><g class="t" style="animation-delay:0.50s">
+<text x="640" y="78" font-size="44" font-weight="700" fill="#0B1F24">250K+</text>
+<text x="640" y="106" font-size="15" fill="#4A6066">B2B leads graded</text></g>
+<rect class="bar" style="animation-delay:0.80s" x="640" y="28" width="28" height="3" rx="1.5" fill="#14B8A6"/><line x1="920" y1="30" x2="920" y2="110" stroke="#0B1F24" stroke-opacity=".12"/><g class="t" style="animation-delay:0.75s">
+<text x="940" y="78" font-size="44" font-weight="700" fill="#0B1F24">99.99%</text>
+<text x="940" y="106" font-size="15" fill="#4A6066">agent uptime overnight</text></g>
+<rect class="bar" style="animation-delay:1.05s" x="940" y="28" width="28" height="3" rx="1.5" fill="#14B8A6"/></g>
+</svg>

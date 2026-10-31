@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+<style>
+  .s{fill:none;stroke:#14B8A6;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+  .f{fill:#14B8A6}
+  .ck{stroke-dasharray:20;stroke-dashoffset:20;animation:d 3s ease-in-out infinite}@keyframes d{30%,80%{stroke-dashoffset:0}100%{stroke-dashoffset:-20}}
+  @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect x="1" y="1" width="54" height="54" rx="14" fill="#14B8A6" fill-opacity=".12" stroke="#14B8A6" stroke-opacity=".35"/>
+
+<path class="s" d="M28 13l12 5v9c0 8-5 13-12 16-7-3-12-8-12-16v-9z"/>
+<path class="s ck" d="M22 28l4 4 8-8"/>
+
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320">
+<style>
+  .e{fill:none;stroke:#19C2AE;stroke-opacity:.55;stroke-width:1.5;stroke-dasharray:6 8;animation:flow 3s linear infinite}
+  .h{fill:#19C2AE;opacity:0;transform-box:fill-box;transform-origin:center;animation:halo 3s ease-out infinite}
+  .t{opacity:0;animation:up .9s cubic-bezier(.2,.7,.2,1) forwards}
+  .r{font-size:18px;font-weight:600;letter-spacing:1.5px;fill:#19C2AE;opacity:0;animation:rot 12s infinite}
+  .g{animation:breathe 6s ease-in-out infinite}
+  .cur{animation:blink 1s steps(1) infinite}
+  @keyframes flow{to{stroke-dashoffset:-56}}
+  @keyframes halo{0%{opacity:.5;transform:scale(.6)}100%{opacity:0;transform:scale(3)}}
+  @keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+  @keyframes rot{0%{opacity:0;transform:translateY(8px)}3%,22%{opacity:1;transform:none}25%,100%{opacity:0;transform:translateY(-8px)}}
+  @keyframes breathe{0%,100%{opacity:.65}50%{opacity:1}}
+  @keyframes blink{50%{opacity:0}}
+  @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+  <linearGradient id="bdbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06121A"/><stop offset="1" stop-color="#0B2A2E"/></linearGradient>
+  <pattern id="bdgrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.05"/></pattern>
+  <radialGradient id="bdglow" cx="0.85" cy="0.3" r="0.55"><stop offset="0" stop-color="#19C2AE" stop-opacity="0.32"/><stop offset="1" stop-color="#19C2AE" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1280" height="320" fill="url(#bdbg)"/>
+<rect width="1280" height="320" fill="url(#bdgrid)"/>
+<rect class="g" width="1280" height="320" fill="url(#bdglow)"/>
+<g><path class="e" style="animation-delay:0.0s" d="M900 90 L1010 150"/><path class="e" style="animation-delay:0.4s" d="M1010 150 L1130 110"/><path class="e" style="animation-delay:0.8s" d="M1130 110 L1200 200"/><path class="e" style="animation-delay:1.2s" d="M1200 200 L1060 240"/><path class="e" style="animation-delay:1.6s" d="M1060 240 L1010 150"/><path class="e" style="animation-delay:2.0s" d="M1060 240 L940 220"/><path class="e" style="animation-delay:2.4s" d="M940 220 L900 90"/></g>
+<g fill="#19C2AE"><circle class="h" style="animation-delay:0.0s" cx="900" cy="90" r="7"/><circle cx="900" cy="90" r="4.5"/><circle class="h" style="animation-delay:0.5s" cx="1010" cy="150" r="7"/><circle cx="1010" cy="150" r="6"/><circle class="h" style="animation-delay:1.0s" cx="1130" cy="110" r="7"/><circle cx="1130" cy="110" r="4.5"/><circle class="h" style="animation-delay:1.5s" cx="1200" cy="200" r="7"/><circle cx="1200" cy="200" r="4.5"/><circle class="h" style="animation-delay:2.0s" cx="1060" cy="240" r="7"/><circle cx="1060" cy="240" r="4.5"/><circle class="h" style="animation-delay:2.5s" cx="940" cy="220" r="7"/><circle cx="940" cy="220" r="4.5"/></g>
+<circle r="3.5" fill="#FFFFFF"><animateMotion dur="7s" repeatCount="indefinite" path="M900 90 L1010 150 L1130 110 L1200 200 L1060 240 L940 220 Z"/></circle>
+<circle r="3" fill="#19C2AE"><animateMotion dur="7s" begin="-3.5s" repeatCount="indefinite" path="M900 90 L1010 150 L1130 110 L1200 200 L1060 240 L940 220 Z"/></circle>
+<g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect class="t" x="80" y="92" width="36" height="4" fill="#19C2AE"/>
+  <text class="t" style="animation-delay:.15s" x="80" y="160" font-size="64" font-weight="700" letter-spacing="2" fill="#FFFFFF">J. SERVO</text>
+  <text class="t" style="animation-delay:.35s" x="80" y="202" font-size="24" font-weight="500" fill="#FFFFFF" fill-opacity="0.92">Your AI Partner in Business</text>
+  <text class="r" style="animation-delay:0s" x="80" y="248">Agentic AI</text><text class="r" style="animation-delay:3s" x="80" y="248">Intelligent Automation</text><text class="r" style="animation-delay:6s" x="80" y="248">Enterprise ERP</text><text class="r" style="animation-delay:9s" x="80" y="248">Digital Transformation</text>
+  <text class="t" style="animation-delay:.6s" x="80" y="286" font-size="13" letter-spacing="2" fill="#9FB8BC">CAIRO · GCC<tspan class="cur" fill="#19C2AE">  ▍</tspan></text>
+</g>
+</svg>
