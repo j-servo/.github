@@ -1,6 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
-<rect x="1" y="1" width="54" height="54" rx="14" fill="#14B8A6" fill-opacity=".12" stroke="#14B8A6" stroke-opacity=".4"/>
+<style>
+  .a{animation-duration:7s;animation-delay:1.10s;animation-iteration-count:infinite;animation-timing-function:ease-in-out;transform-box:fill-box;transform-origin:center}
+  .tile{animation-name:tile}
+  @keyframes tile{0%,20%,100%{fill-opacity:.12;stroke-opacity:.4}8%{fill-opacity:.24;stroke-opacity:.9}}
+  @keyframes bob{0%,22%,100%{transform:none}5%{transform:translateY(-3px) rotate(-6deg)}10%{transform:translateY(0) rotate(4deg)}15%{transform:translateY(-1.5px) rotate(-2deg)}}.bob{animation-name:bob}
+  @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect class="a tile" x="1" y="1" width="54" height="54" rx="14" fill="#14B8A6" fill-opacity=".12" stroke="#14B8A6" stroke-opacity=".4"/>
 <g transform="translate(16 16)" fill="none" stroke="#14B8A6" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
-<rect x="2.5" y="7" width="19" height="13" rx="2.5"/><path d="M8.5 7V5A2 2 0 0 1 10.5 3H13.5A2 2 0 0 1 15.5 5V7"/><path d="M2.5 12.5H21.5"/><path d="M10.5 12.5V14.5H13.5V12.5"/>
+<g class="a bob"><rect x="2.5" y="7" width="19" height="13" rx="2.5"/><path d="M8.5 7V5A2 2 0 0 1 10.5 3H13.5A2 2 0 0 1 15.5 5V7"/><path d="M2.5 12.5H21.5"/><path d="M10.5 12.5V14.5H13.5V12.5"/></g>
 </g>
 </svg>

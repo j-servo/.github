@@ -1,6 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
-<rect x="1" y="1" width="54" height="54" rx="14" fill="#14B8A6" fill-opacity=".12" stroke="#14B8A6" stroke-opacity=".4"/>
+<style>
+  .a{animation-duration:7s;animation-delay:2.20s;animation-iteration-count:infinite;animation-timing-function:ease-in-out;transform-box:fill-box;transform-origin:center}
+  .tile{animation-name:tile}
+  @keyframes tile{0%,20%,100%{fill-opacity:.12;stroke-opacity:.4}8%{fill-opacity:.24;stroke-opacity:.9}}
+  @keyframes rays{0%,22%,100%{opacity:0;transform:scale(.8)}6%,14%{opacity:1;transform:scale(1.1)}}.rays{animation-name:rays;opacity:0}@keyframes bulb{0%,22%,100%{fill-opacity:0}6%,14%{fill-opacity:.45}}.bulb{animation-name:bulb}
+  @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect class="a tile" x="1" y="1" width="54" height="54" rx="14" fill="#14B8A6" fill-opacity=".12" stroke="#14B8A6" stroke-opacity=".4"/>
 <g transform="translate(16 16)" fill="none" stroke="#14B8A6" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
-<path d="M9 17.5H15M10 21H14"/><path d="M12 3A6.5 6.5 0 0 0 8 14.6V17.5H16V14.6A6.5 6.5 0 0 0 12 3Z"/>
+<g class="a rays" stroke-width="1.6"><path d="M12 0V1.2M3.5 3.5L4.4 4.4M20.5 3.5L19.6 4.4M0.3 11H1.5M22.5 11H23.7" transform="translate(0 -1)"/></g><path d="M9 17.5H15M10 21H14"/><path class="a bulb" d="M12 3A6.5 6.5 0 0 0 8 14.6V17.5H16V14.6A6.5 6.5 0 0 0 12 3Z" fill="#14B8A6" fill-opacity="0"/>
 </g>
 </svg>

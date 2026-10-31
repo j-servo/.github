@@ -1,6 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
-<rect x="1" y="1" width="54" height="54" rx="14" fill="#14B8A6" fill-opacity=".12" stroke="#14B8A6" stroke-opacity=".4"/>
+<style>
+  .a{animation-duration:7s;animation-delay:0.00s;animation-iteration-count:infinite;animation-timing-function:ease-in-out;transform-box:fill-box;transform-origin:center}
+  .tile{animation-name:tile}
+  @keyframes tile{0%,20%,100%{fill-opacity:.12;stroke-opacity:.4}8%{fill-opacity:.24;stroke-opacity:.9}}
+  @keyframes s1{0%,24%,100%{transform:scaleX(1)}6%{transform:scaleX(.06)}12%{transform:scaleX(1)}18%{transform:scaleX(.06)}}.spin{animation-name:s1}@keyframes eq{0%,24%,100%{transform:none}12%{transform:rotate(-12deg)}}.eq{animation-name:eq}
+  @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect class="a tile" x="1" y="1" width="54" height="54" rx="14" fill="#14B8A6" fill-opacity=".12" stroke="#14B8A6" stroke-opacity=".4"/>
 <g transform="translate(16 16)" fill="none" stroke="#14B8A6" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
-<circle cx="12" cy="12" r="10"/><ellipse cx="12" cy="12" rx="4.2" ry="10"/><path d="M2.5 9H21.5M2.5 15H21.5"/>
+<circle cx="12" cy="12" r="10"/><ellipse class="a spin" cx="12" cy="12" rx="4.2" ry="10"/><path class="a eq" d="M2.5 9H21.5M2.5 15H21.5"/>
 </g>
 </svg>

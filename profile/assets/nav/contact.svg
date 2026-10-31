@@ -1,6 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
-<rect x="1" y="1" width="54" height="54" rx="14" fill="#14B8A6" fill-opacity=".12" stroke="#14B8A6" stroke-opacity=".4"/>
+<style>
+  .a{animation-duration:7s;animation-delay:3.30s;animation-iteration-count:infinite;animation-timing-function:ease-in-out;transform-box:fill-box;transform-origin:center}
+  .tile{animation-name:tile}
+  @keyframes tile{0%,20%,100%{fill-opacity:.12;stroke-opacity:.4}8%{fill-opacity:.24;stroke-opacity:.9}}
+  @keyframes flap{0%,24%,100%{transform:none}6%,16%{transform:scaleY(-.9)}}.flap{animation-name:flap;transform-origin:50% 0%}@keyframes hop{0%,24%,100%{transform:none}4%{transform:translateY(-2px)}8%{transform:none}}.hop{animation-name:hop}
+  @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect class="a tile" x="1" y="1" width="54" height="54" rx="14" fill="#14B8A6" fill-opacity=".12" stroke="#14B8A6" stroke-opacity=".4"/>
 <g transform="translate(16 16)" fill="none" stroke="#14B8A6" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
-<rect x="2.5" y="5" width="19" height="14" rx="2.5"/><path d="M3.5 6.5 L12 13 L20.5 6.5"/>
+<g class="a hop"><rect x="2.5" y="5" width="19" height="14" rx="2.5"/><path class="a flap" d="M3.5 6.5 L12 13 L20.5 6.5"/></g>
 </g>
 </svg>
