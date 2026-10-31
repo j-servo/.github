@@ -8,13 +8,13 @@
 </a>
 
 <p align="center">
-  <a href="https://jservo.com"><b>Website</b></a> &nbsp;·&nbsp;
-  <a href="https://jservo.com/ai-solutions/"><b>Solutions</b></a> &nbsp;·&nbsp;
-  <a href="https://jservo.com/case-studies/"><b>Case Studies</b></a> &nbsp;·&nbsp;
-  <a href="https://jservo.com/ai-transformation-blueprint/"><b>Blueprint</b></a> &nbsp;·&nbsp;
-  <a href="https://jservo.com/category/jservo-ai-blog/"><b>Insights</b></a> &nbsp;·&nbsp;
-  <a href="https://linkedin.com/company/jservo"><b>LinkedIn</b></a> &nbsp;·&nbsp;
-  <a href="https://jservo.com/contact-us/"><b>Contact</b></a>
+  <a href="https://jservo.com" title="Website"><img src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/nav/website.svg?v=1" width="44" height="44" alt="Website"></a>&nbsp;
+  <a href="https://jservo.com/ai-solutions/" title="Solutions"><img src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/nav/solutions.svg?v=1" width="44" height="44" alt="Solutions"></a>&nbsp;
+  <a href="https://jservo.com/case-studies/" title="Case Studies"><img src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/nav/case-studies.svg?v=1" width="44" height="44" alt="Case Studies"></a>&nbsp;
+  <a href="https://jservo.com/ai-transformation-blueprint/" title="Blueprint"><img src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/nav/blueprint.svg?v=1" width="44" height="44" alt="Blueprint"></a>&nbsp;
+  <a href="https://jservo.com/category/jservo-ai-blog/" title="Insights"><img src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/nav/insights.svg?v=1" width="44" height="44" alt="Insights"></a>&nbsp;
+  <a href="https://linkedin.com/company/jservo" title="LinkedIn"><img src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/nav/linkedin.svg?v=1" width="44" height="44" alt="LinkedIn"></a>&nbsp;
+  <a href="https://jservo.com/contact-us/" title="Contact"><img src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/nav/contact.svg?v=1" width="44" height="44" alt="Contact"></a>
 </p>
 
 <br>
