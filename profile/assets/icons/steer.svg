@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+<style>
+  .s{fill:none;stroke:#C9962E;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+  .f{fill:#C9962E}
+  .ck{stroke-dasharray:22;stroke-dashoffset:0;animation:draw 3.5s ease-in-out infinite}@keyframes draw{0%,55%{stroke-dashoffset:0}75%{stroke-dashoffset:22}100%{stroke-dashoffset:0}}
+  @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect x="1" y="1" width="54" height="54" rx="14" fill="#C9962E" fill-opacity=".12" stroke="#C9962E" stroke-opacity=".4"/>
+<path class="s" d="M14 17 H42 A3 3 0 0 1 45 20 V34 A3 3 0 0 1 42 37 H24 L17 42 V37 H14 A3 3 0 0 1 11 34 V20 A3 3 0 0 1 14 17 Z"/>
+<path class="s ck" d="M21 27 L26 32 L35 22"/>
+</svg>

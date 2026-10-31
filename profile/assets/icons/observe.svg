@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+<style>
+  .s{fill:none;stroke:#C9962E;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+  .f{fill:#C9962E}
+  .pu{animation:look 4s ease-in-out infinite}@keyframes look{0%,100%{transform:translateX(0)}25%{transform:translateX(-3px)}75%{transform:translateX(3px)}}
+  @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect x="1" y="1" width="54" height="54" rx="14" fill="#C9962E" fill-opacity=".12" stroke="#C9962E" stroke-opacity=".4"/>
+<path class="s" d="M12 28 C17 20 22 17 28 17 C34 17 39 20 44 28 C39 36 34 39 28 39 C22 39 17 36 12 28 Z"/>
+<circle class="s" cx="28" cy="28" r="6"/>
+<circle class="f pu" cx="28" cy="28" r="2.6"/>
+</svg>

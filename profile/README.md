@@ -71,30 +71,67 @@ against agreed KPIs, and ships as infrastructure our clients own, with no vendor
 
 ## Open source
 
+<a href="https://github.com/j-servo/diwan">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/diwan-dark.svg?v=1">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/diwan-light.svg?v=1">
+    <img alt="Diwan: houses of knowledge for your AI agents" src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/diwan-dark.svg?v=1" width="100%">
+  </picture>
+</a>
+
+**Diwan** turns every Claude Code session on your machine into a scholar in a live 3D diorama of history's
+great houses of learning: the **House of Wisdom** in Abbasid Baghdad and the **House of Life** in Ptolemaic Egypt.
+
 <table>
   <tr>
-    <td width="62%" valign="top">
-      <h3><a href="https://github.com/j-servo/diwan">Diwan</a></h3>
-      <p><b>Houses of knowledge for your AI agents.</b> Diwan turns every Claude Code session on your machine into a scholar in a live 3D diorama of history's great houses of learning: the House of Wisdom in Abbasid Baghdad and the House of Life in Ptolemaic Egypt.</p>
-      <ul>
-        <li><b>Observe:</b> see what each agent is reading, writing, running or searching, in real time</li>
-        <li><b>Steer:</b> launch sessions, approve or deny tool calls and send follow-ups, with a full audit trail</li>
-        <li><b>Secure by design:</b> loopback-only server, per-run tokens, strict origin checks and secret redaction</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
-        <img src="https://img.shields.io/badge/three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" alt="three.js">
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
-        <img src="https://img.shields.io/badge/Node.js_20+-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js">
-      </p>
+    <td width="33%" valign="top">
+      <img src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/icons/observe.svg?v=1" width="44" height="44" alt="">
+      <h4>Observe</h4>
+      See what each agent is reading, writing, running or searching, in real time.
     </td>
-    <td width="38%" valign="middle">
-      <a href="https://github.com/j-servo/diwan">
-        <img src="https://raw.githubusercontent.com/j-servo/diwan/main/docs/superpowers/m1/img/frame-1-golden-wide.jpg" alt="Diwan: the House of Wisdom" width="100%">
-      </a>
+    <td width="33%" valign="top">
+      <img src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/icons/steer.svg?v=1" width="44" height="44" alt="">
+      <h4>Steer</h4>
+      Launch sessions, approve or deny tool calls and send follow-ups, with a full audit trail.
+    </td>
+    <td width="33%" valign="top">
+      <img src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/icons/secure.svg?v=1" width="44" height="44" alt="">
+      <h4>Secure by design</h4>
+      Loopback-only server, per-run tokens, strict origin checks and secret redaction.
     </td>
   </tr>
 </table>
+
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <a href="https://github.com/j-servo/diwan"><img src="https://raw.githubusercontent.com/j-servo/diwan/main/docs/superpowers/m1/img/frame-1-golden-wide.jpg" alt="The House of Wisdom at golden hour" width="100%"></a>
+      <sub>The House of Wisdom at golden hour</sub>
+    </td>
+    <td width="33%" align="center">
+      <a href="https://github.com/j-servo/diwan"><img src="https://raw.githubusercontent.com/j-servo/diwan/main/docs/superpowers/m1/img/frame-6-ui-bubbles.jpg" alt="Live agent activity above each scholar" width="100%"></a>
+      <sub>Live activity above every scholar</sub>
+    </td>
+    <td width="33%" align="center">
+      <a href="https://github.com/j-servo/diwan"><img src="https://raw.githubusercontent.com/j-servo/diwan/main/docs/superpowers/m1/img/frame-8-armillary.jpg" alt="The armillary sphere at the heart of the court" width="100%"></a>
+      <sub>The armillary at the heart of the court</sub>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <a href="https://github.com/j-servo/diwan"><img src="https://img.shields.io/badge/View_on_GitHub-C9962E?style=for-the-badge&logo=github&logoColor=white" alt="View Diwan on GitHub"></a>
+  &nbsp;
+  <a href="https://github.com/j-servo/diwan#readme"><img src="https://img.shields.io/badge/Get_started-0A9181?style=for-the-badge&logo=gitbook&logoColor=white" alt="Get started with Diwan"></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" alt="three.js">
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
+  <img src="https://img.shields.io/badge/Node.js_20+-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js 20+">
+  <img src="https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude Code">
+</p>
 
 <p align="center"><img src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/divider.svg?v=2" width="100%" alt=""></p>
 

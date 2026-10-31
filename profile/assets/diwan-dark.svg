@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<style>
+  .t{}
+  .ring{fill:none;stroke:#E0B158;stroke-width:2;transform-box:view-box;transform-origin:1010px 180px}
+  .r1{animation:spin 18s linear infinite}
+  .r2{animation:spin 26s linear infinite reverse}
+  .r3{animation:spin 34s linear infinite}
+  .core{animation:breathe 4s ease-in-out infinite}
+  .g{animation:breathe 6s ease-in-out infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  @keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+  @keyframes breathe{0%,100%{opacity:.7}50%{opacity:1}}
+  @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B0A07"/><stop offset="1" stop-color="#1E1709"/></linearGradient>
+  <pattern id="star" width="64" height="64" patternUnits="userSpaceOnUse">
+    <g fill="none" stroke="#FFFFFF" stroke-opacity=".06" stroke-width="1">
+      <rect x="18" y="18" width="28" height="28"/>
+      <rect x="18" y="18" width="28" height="28" transform="rotate(45 32 32)"/>
+      <path d="M0 32H12M52 32H64M32 0V12M32 52V64"/>
+    </g>
+  </pattern>
+  <linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="#000" stop-opacity="0"/><stop offset=".45" stop-color="#fff" stop-opacity=".0"/><stop offset="1" stop-color="#fff" stop-opacity="1"/></linearGradient>
+  <mask id="m"><rect width="1280" height="360" fill="url(#fade)"/></mask>
+  <radialGradient id="glow" cx="0.79" cy="0.5" r="0.4"><stop offset="0" stop-color="#E0B158" stop-opacity=".35"/><stop offset="1" stop-color="#E0B158" stop-opacity="0"/></radialGradient>
+  <radialGradient id="sun" cx=".4" cy=".35" r=".7"><stop offset="0" stop-color="#FFF4D6"/><stop offset=".5" stop-color="#E0B158"/><stop offset="1" stop-color="#E0B158" stop-opacity=".6"/></radialGradient>
+</defs>
+<rect width="1280" height="360" fill="url(#bg)"/>
+<rect width="1280" height="360" fill="url(#star)" mask="url(#m)"/>
+<rect class="g" width="1280" height="360" fill="url(#glow)"/>
+
+<!-- armillary sphere -->
+<g>
+  <circle cx="1010" cy="180" r="120" fill="none" stroke="#E0B158" stroke-opacity=".55" stroke-width="2"/>
+  <circle cx="1010" cy="180" r="132" fill="none" stroke="#E0B158" stroke-opacity=".18" stroke-width="1" stroke-dasharray="2 6"/>
+  <g class="ring r1"><ellipse cx="1010" cy="180" rx="120" ry="36" stroke-opacity=".9"/></g>
+  <g class="ring r2"><ellipse cx="1010" cy="180" rx="120" ry="70" stroke-opacity=".6" transform="rotate(60 1010 180)"/></g>
+  <g class="ring r3"><ellipse cx="1010" cy="180" rx="36" ry="120" stroke-opacity=".45" transform="rotate(-30 1010 180)"/></g>
+  <path d="M1010 40 V320" stroke="#E0B158" stroke-opacity=".35" stroke-width="1.5"/>
+  <circle class="core" cx="1010" cy="180" r="18" fill="url(#sun)"/>
+  <!-- agents orbiting -->
+  <circle r="5" fill="#19C2AE"><animateMotion dur="9s" repeatCount="indefinite" path="M890 180 A120 36 0 1 0 1130 180 A120 36 0 1 0 890 180"/></circle>
+  <circle r="4" fill="#19C2AE" opacity=".8"><animateMotion dur="13s" begin="-4s" repeatCount="indefinite" path="M1010 60 A120 120 0 1 1 1009.9 60"/></circle>
+  <circle r="3.5" fill="#E0B158"><animateMotion dur="7s" begin="-2s" repeatCount="indefinite" path="M1130 180 A120 36 0 1 1 890 180 A120 36 0 1 1 1130 180"/></circle>
+</g>
+
+<!-- text -->
+<rect class="t" x="80" y="58" width="36" height="3" fill="#E0B158"/>
+<text class="t" style="animation-delay:.05s" x="80" y="92" font-size="14" font-weight="600" letter-spacing="3" fill="#E0B158">OPEN SOURCE  ·  BY J. SERVO</text>
+<text class="t" style="animation-delay:.15s" x="78" y="164" font-size="68" font-weight="700" letter-spacing="1" fill="#FFFFFF">Diwan</text>
+<text class="t" style="animation-delay:.25s" x="300" y="160" font-size="40" font-weight="600" fill="#E0B158" fill-opacity=".9" font-family="'Segoe UI', 'Geeza Pro', 'Noto Naskh Arabic', Tahoma, sans-serif">ديوان</text>
+<text class="t" style="animation-delay:.35s" x="80" y="204" font-size="24" font-weight="500" fill="#F3E9D2">Houses of knowledge for your AI agents</text>
+<text class="t" style="animation-delay:.45s" x="80" y="234" font-size="16" fill="#B9A887">Every Claude Code session becomes a scholar in a live 3D diorama.</text>
+
+<g class="t" style="animation-delay:.6s" font-size="13" font-weight="600" letter-spacing="1">
+  <rect x="80" y="264" width="262" height="34" rx="17" fill="#E0B158" fill-opacity=".10" stroke="#E0B158" stroke-opacity=".45"/>
+  <circle cx="100" cy="281" r="4" fill="#E0B158"/>
+  <text x="114" y="286" fill="#F3E9D2">HOUSE OF WISDOM · BAGHDAD</text>
+  <rect x="356" y="264" width="294" height="34" rx="17" fill="#E0B158" fill-opacity=".10" stroke="#E0B158" stroke-opacity=".45"/>
+  <circle cx="376" cy="281" r="4" fill="#19C2AE"/>
+  <text x="390" y="286" fill="#F3E9D2">HOUSE OF LIFE · PTOLEMAIC EGYPT</text>
+</g>
+</svg>
