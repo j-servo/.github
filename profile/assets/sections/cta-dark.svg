@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<style>
+
+.ck{animation:ck 8s ease-in-out infinite}
+@keyframes ck{0%,14%,100%{fill-opacity:.15}5%{fill-opacity:.6}}
+.ring{transform-box:fill-box;transform-origin:center;opacity:0;animation:ring 8s ease-out infinite}
+@keyframes ring{0%{opacity:.6;transform:scale(1)}8%{opacity:0;transform:scale(2)}100%{opacity:0}}
+.radar{transform-origin:1120px 150px;animation:spin 6s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.g{animation:g 6s ease-in-out infinite}
+@keyframes g{0%,100%{opacity:.7}50%{opacity:1}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06121A"/><stop offset="1" stop-color="#0B2A2E"/></linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity=".045"/></pattern>
+  <linearGradient id="sheen" x1="0" x2="1"><stop offset="0" stop-color="#19C2AE" stop-opacity="0"/><stop offset=".5" stop-color="#19C2AE" stop-opacity=".16"/><stop offset="1" stop-color="#19C2AE" stop-opacity="0"/></linearGradient>
+</defs>
+<rect width="1280" height="300" rx="20" fill="url(#bg)"/><rect width="1280" height="300" rx="20" fill="url(#grid)"/>
+<defs><radialGradient id="gl" cx=".25" cy=".3" r=".6"><stop offset="0" stop-color="#19C2AE" stop-opacity=".22"/><stop offset="1" stop-color="#19C2AE" stop-opacity="0"/></radialGradient><linearGradient id="rad" x1="0" x2="1"><stop offset="0" stop-color="#19C2AE" stop-opacity="0"/><stop offset="1" stop-color="#19C2AE" stop-opacity=".35"/></linearGradient></defs>
+<rect class="g" width="1280" height="300" rx="20" fill="url(#gl)"/>
+<circle cx="1120" cy="150" r="40" fill="none" stroke="#19C2AE" stroke-opacity=".12"/>
+<circle cx="1120" cy="150" r="80" fill="none" stroke="#19C2AE" stroke-opacity=".12"/>
+<circle cx="1120" cy="150" r="120" fill="none" stroke="#19C2AE" stroke-opacity=".12"/>
+<path class="radar" d="M1120 150 L1240 150 A120 120 0 0 0 1205 65 Z" fill="url(#rad)"/>
+<rect x="56" y="58" width="36" height="3" fill="#19C2AE"/>
+<text x="56" y="92" font-size="14" font-weight="600" letter-spacing="3" fill="#19C2AE">COMPLIMENTARY · 60–90 MINUTES</text>
+<text x="54" y="148" font-size="44" font-weight="700" fill="#FFFFFF">AI Readiness Assessment</text>
+<text x="56" y="186" font-size="19" fill="#D3E5E7">Find where AI pays off in your business before you invest.</text>
+<rect x="56" y="214" width="232" height="46" rx="23" fill="#19C2AE"/><text x="172" y="243" font-size="16" font-weight="700" text-anchor="middle" fill="#0E1F25">Book an assessment  →</text>
+<circle class="ring" style="animation-delay:0.0s" cx="694" cy="82" r="14" fill="#19C2AE"/>
+<circle class="ck" style="animation-delay:0.0s" cx="694" cy="82" r="14" fill="#19C2AE" fill-opacity=".15" stroke="#19C2AE" stroke-width="1.5"/>
+<path d="M687 82 l5 5 l9 -10" fill="none" stroke="#19C2AE" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="722" y="88" font-size="18" fill="#FFFFFF">Review your workflows</text>
+<circle class="ring" style="animation-delay:1.2s" cx="694" cy="132" r="14" fill="#19C2AE"/>
+<circle class="ck" style="animation-delay:1.2s" cx="694" cy="132" r="14" fill="#19C2AE" fill-opacity=".15" stroke="#19C2AE" stroke-width="1.5"/>
+<path d="M687 132 l5 5 l9 -10" fill="none" stroke="#19C2AE" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="722" y="138" font-size="18" fill="#FFFFFF">Rank the highest-value opportunities</text>
+<circle class="ring" style="animation-delay:2.4s" cx="694" cy="182" r="14" fill="#19C2AE"/>
+<circle class="ck" style="animation-delay:2.4s" cx="694" cy="182" r="14" fill="#19C2AE" fill-opacity=".15" stroke="#19C2AE" stroke-width="1.5"/>
+<path d="M687 182 l5 5 l9 -10" fill="none" stroke="#19C2AE" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="722" y="188" font-size="18" fill="#FFFFFF">Project the ROI</text>
+<circle class="ring" style="animation-delay:3.6s" cx="694" cy="232" r="14" fill="#19C2AE"/>
+<circle class="ck" style="animation-delay:3.6s" cx="694" cy="232" r="14" fill="#19C2AE" fill-opacity=".15" stroke="#19C2AE" stroke-width="1.5"/>
+<path d="M687 232 l5 5 l9 -10" fill="none" stroke="#19C2AE" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="722" y="238" font-size="18" fill="#FFFFFF">Draft your roadmap</text>
+</svg>

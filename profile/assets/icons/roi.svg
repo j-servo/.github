@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+<style>
+  .s{fill:none;stroke:#14B8A6;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+  .f{fill:#14B8A6}
+  .b{transform-box:fill-box;transform-origin:bottom;animation:b 4s ease-in-out infinite}@keyframes b{0%,40%,100%{transform:none}15%{transform:scaleY(.3)}}.ar{stroke-dasharray:44;animation:ar 4s ease-in-out infinite}@keyframes ar{0%,45%,100%{stroke-dashoffset:0}18%{stroke-dashoffset:44}}
+  @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect x="1" y="1" width="54" height="54" rx="14" fill="#14B8A6" fill-opacity=".12" stroke="#14B8A6" stroke-opacity=".35"/>
+<path class="s" d="M13 42 H43"/><rect class="f b" x="15" y="32" width="6" height="8" rx="1.5"/><rect class="f b" style="animation-delay:.15s" x="25" y="26" width="6" height="14" rx="1.5"/><rect class="f b" style="animation-delay:.3s" x="35" y="20" width="6" height="20" rx="1.5"/><path class="s ar" d="M14 24 L24 18 L30 21 L41 13 M36 13 H41 V18"/>
+</svg>

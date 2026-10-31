@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="250" viewBox="0 0 1280 250" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<style>
+
+.std{animation:std 7.5s ease-in-out infinite}
+@keyframes std{0%,18%,100%{fill-opacity:.1;stroke-opacity:.35}7%{fill-opacity:.35;stroke-opacity:1}}
+.grow{transform-box:fill-box;transform-origin:bottom;animation:grow 7s ease-in-out infinite}
+@keyframes grow{0%,40%,100%{transform:none}15%{transform:scaleY(.2)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06121A"/><stop offset="1" stop-color="#0B2A2E"/></linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity=".045"/></pattern>
+  <linearGradient id="sheen" x1="0" x2="1"><stop offset="0" stop-color="#19C2AE" stop-opacity="0"/><stop offset=".5" stop-color="#19C2AE" stop-opacity=".16"/><stop offset="1" stop-color="#19C2AE" stop-opacity="0"/></linearGradient>
+</defs>
+<rect width="1280" height="250" rx="18" fill="url(#bg)"/><rect width="1280" height="250" rx="18" fill="url(#grid)"/>
+<line x1="640" y1="32" x2="640" y2="218" stroke="#FFFFFF" stroke-opacity=".08"/>
+<text x="44" y="52" font-size="13" font-weight="600" letter-spacing="3" fill="#19C2AE">FIVE STANDARDS</text>
+<text x="44" y="80" font-size="17" fill="#8FA9AD">Every solution is held to all five.</text>
+<polygon class="std" style="animation-delay:0.0s" points="92.0,116.0 121.4,133.0 121.4,167.0 92.0,184.0 62.6,167.0 62.6,133.0" fill="#19C2AE" fill-opacity=".1" stroke="#19C2AE" stroke-opacity=".35" stroke-width="2"/>
+<text x="92" y="158" font-size="22" font-weight="700" text-anchor="middle" fill="#19C2AE">C</text>
+<text x="92" y="214" font-size="15" font-weight="600" text-anchor="middle" fill="#FFFFFF">Credibility</text>
+<polygon class="std" style="animation-delay:1.5s" points="205.0,116.0 234.4,133.0 234.4,167.0 205.0,184.0 175.6,167.0 175.6,133.0" fill="#19C2AE" fill-opacity=".1" stroke="#19C2AE" stroke-opacity=".35" stroke-width="2"/>
+<text x="205" y="158" font-size="22" font-weight="700" text-anchor="middle" fill="#19C2AE">U</text>
+<text x="205" y="214" font-size="15" font-weight="600" text-anchor="middle" fill="#FFFFFF">Usability</text>
+<polygon class="std" style="animation-delay:3.0s" points="318.0,116.0 347.4,133.0 347.4,167.0 318.0,184.0 288.6,167.0 288.6,133.0" fill="#19C2AE" fill-opacity=".1" stroke="#19C2AE" stroke-opacity=".35" stroke-width="2"/>
+<text x="318" y="158" font-size="22" font-weight="700" text-anchor="middle" fill="#19C2AE">V</text>
+<text x="318" y="214" font-size="15" font-weight="600" text-anchor="middle" fill="#FFFFFF">Visibility</text>
+<polygon class="std" style="animation-delay:4.5s" points="431.0,116.0 460.4,133.0 460.4,167.0 431.0,184.0 401.6,167.0 401.6,133.0" fill="#19C2AE" fill-opacity=".1" stroke="#19C2AE" stroke-opacity=".35" stroke-width="2"/>
+<text x="431" y="158" font-size="22" font-weight="700" text-anchor="middle" fill="#19C2AE">S</text>
+<text x="431" y="214" font-size="15" font-weight="600" text-anchor="middle" fill="#FFFFFF">Sellability</text>
+<polygon class="std" style="animation-delay:6.0s" points="544.0,116.0 573.4,133.0 573.4,167.0 544.0,184.0 514.6,167.0 514.6,133.0" fill="#19C2AE" fill-opacity=".1" stroke="#19C2AE" stroke-opacity=".35" stroke-width="2"/>
+<text x="544" y="158" font-size="22" font-weight="700" text-anchor="middle" fill="#19C2AE">S</text>
+<text x="544" y="214" font-size="15" font-weight="600" text-anchor="middle" fill="#FFFFFF">Scalability</text>
+<text x="684" y="52" font-size="13" font-weight="600" letter-spacing="3" fill="#19C2AE">THREE ENGAGEMENT MODELS</text>
+<text x="684" y="80" font-size="17" fill="#8FA9AD">Fixed deliverables · transparent pricing</text>
+<rect x="700" y="60" width="132" height="140" rx="10" fill="#19C2AE" fill-opacity=".05"/>
+<rect class="grow" style="animation-delay:0.00s" x="700" y="146" width="132" height="54" rx="10" fill="#19C2AE" fill-opacity="0.25"/>
+<text x="766" y="228" font-size="16" font-weight="600" text-anchor="middle" fill="#FFFFFF">Starter</text>
+<rect x="880" y="60" width="132" height="140" rx="10" fill="#19C2AE" fill-opacity=".05"/>
+<rect class="grow" style="animation-delay:0.25s" x="880" y="108" width="132" height="92" rx="10" fill="#19C2AE" fill-opacity="0.50"/>
+<text x="946" y="228" font-size="16" font-weight="600" text-anchor="middle" fill="#FFFFFF">Growth</text>
+<rect x="1060" y="60" width="132" height="140" rx="10" fill="#19C2AE" fill-opacity=".05"/>
+<rect class="grow" style="animation-delay:0.50s" x="1060" y="70" width="132" height="130" rx="10" fill="#19C2AE" fill-opacity="0.75"/>
+<text x="1126" y="228" font-size="16" font-weight="600" text-anchor="middle" fill="#FFFFFF">Transformation</text>
+</svg>

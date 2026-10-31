@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+<style>
+  .s{fill:none;stroke:#14B8A6;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+  .f{fill:#14B8A6}
+  .fl{stroke-dasharray:4 4;animation:fl 1.2s linear infinite}@keyframes fl{to{stroke-dashoffset:-8}}.p{transform-box:fill-box;transform-origin:center;animation:p 1.6s ease-in-out infinite}@keyframes p{50%{transform:scale(1.5);opacity:.6}}
+  @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect x="1" y="1" width="54" height="54" rx="14" fill="#14B8A6" fill-opacity=".12" stroke="#14B8A6" stroke-opacity=".35"/>
+<path class="s fl" d="M17 19 C24 19 24 28 28 28 C32 28 32 19 39 19 M17 37 C24 37 24 28 28 28 C32 28 32 37 39 37"/><rect class="s" x="11" y="15" width="8" height="8" rx="2"/><rect class="s" x="11" y="33" width="8" height="8" rx="2"/><rect class="s" x="37" y="15" width="8" height="8" rx="2"/><rect class="s" x="37" y="33" width="8" height="8" rx="2"/><circle class="f p" cx="28" cy="28" r="3.5"/>
+</svg>

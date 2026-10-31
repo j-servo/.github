@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="484" viewBox="0 0 1280 484" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<style>
+
+.hl{animation:hl 9s ease-in-out infinite}
+@keyframes hl{0%,14%,100%{stroke-opacity:.22}6%{stroke-opacity:.9}}
+.live{transform-box:fill-box;transform-origin:center;animation:live 1.8s ease-in-out infinite}
+@keyframes live{50%{transform:scale(2.2);opacity:0}}
+.prog{transform-box:fill-box;transform-origin:left;animation:prog 9s ease-in-out infinite}
+@keyframes prog{0%,30%,100%{transform:none}8%{transform:scaleX(.05)}}
+.sw{animation:sw 7s ease-in-out infinite}
+@keyframes sw{0%{transform:translateX(-400px)}60%,100%{transform:translateX(1400px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F7FBFB"/><stop offset="1" stop-color="#E3F1EF"/></linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#0B1F24" stroke-opacity=".05"/></pattern>
+  <linearGradient id="sheen" x1="0" x2="1"><stop offset="0" stop-color="#0A9181" stop-opacity="0"/><stop offset=".5" stop-color="#0A9181" stop-opacity=".16"/><stop offset="1" stop-color="#0A9181" stop-opacity="0"/></linearGradient>
+</defs>
+<clipPath id="cards"><rect x="24" y="20" width="296" height="214" rx="14"/><rect x="336" y="20" width="296" height="214" rx="14"/><rect x="648" y="20" width="296" height="214" rx="14"/><rect x="960" y="20" width="296" height="214" rx="14"/><rect x="24" y="250" width="400" height="214" rx="14"/><rect x="440" y="250" width="400" height="214" rx="14"/><rect x="856" y="250" width="400" height="214" rx="14"/></clipPath>
+<rect x="24" y="20" width="296" height="214" rx="14" fill="#FFFFFF" fill-opacity=".92"/><rect class="hl" style="animation-delay:0.00s" x="24.5" y="20.5" width="295" height="213" rx="14" fill="none" stroke="#0A9181" stroke-opacity=".22"/>
+<text x="48" y="60" font-size="20" font-weight="700" letter-spacing="1" fill="#0B1F24">POJEHAT</text>
+<text x="296" y="60" font-size="13" font-weight="600" text-anchor="end" fill="#4A6066">01</text>
+<circle cx="266" cy="55" r="4" fill="#0A9181"/><circle class="live" style="animation-delay:0.00s" cx="266" cy="55" r="4" fill="#0A9181"/>
+<text x="48" y="84" font-size="14" fill="#0A9181">Omnichannel AI support</text>
+<text x="46" y="146" font-size="44" font-weight="700" fill="#0B1F24">70%+</text>
+<text x="48" y="176" font-size="16" fill="#23383D">of tier-1 queries automated</text>
+<text x="48" y="200" font-size="14" fill="#4A6066">Replies in under 1.2 s, around the clock</text>
+<rect x="48" y="216" width="248" height="3" rx="1.5" fill="#0A9181" fill-opacity=".14"/><rect class="prog" style="animation-delay:0.00s" x="48" y="216" width="248" height="3" rx="1.5" fill="#0A9181"/>
+<rect x="336" y="20" width="296" height="214" rx="14" fill="#FFFFFF" fill-opacity=".92"/><rect class="hl" style="animation-delay:0.90s" x="336.5" y="20.5" width="295" height="213" rx="14" fill="none" stroke="#0A9181" stroke-opacity=".22"/>
+<text x="360" y="60" font-size="20" font-weight="700" letter-spacing="1" fill="#0B1F24">DELTA</text>
+<text x="608" y="60" font-size="13" font-weight="600" text-anchor="end" fill="#4A6066">02</text>
+<circle cx="578" cy="55" r="4" fill="#0A9181"/><circle class="live" style="animation-delay:0.90s" cx="578" cy="55" r="4" fill="#0A9181"/>
+<text x="360" y="84" font-size="14" fill="#0A9181">ERP and 3D parametric engineering</text>
+<text x="358" y="146" font-size="44" font-weight="700" fill="#0B1F24">65%</text>
+<text x="360" y="176" font-size="16" fill="#23383D">shorter drafting cycles</text>
+<text x="360" y="200" font-size="14" fill="#4A6066">Inventory variance under 0.5%</text>
+<rect x="360" y="216" width="248" height="3" rx="1.5" fill="#0A9181" fill-opacity=".14"/><rect class="prog" style="animation-delay:0.90s" x="360" y="216" width="248" height="3" rx="1.5" fill="#0A9181"/>
+<rect x="648" y="20" width="296" height="214" rx="14" fill="#FFFFFF" fill-opacity=".92"/><rect class="hl" style="animation-delay:1.80s" x="648.5" y="20.5" width="295" height="213" rx="14" fill="none" stroke="#0A9181" stroke-opacity=".22"/>
+<text x="672" y="60" font-size="20" font-weight="700" letter-spacing="1" fill="#0B1F24">BRICS</text>
+<text x="920" y="60" font-size="13" font-weight="600" text-anchor="end" fill="#4A6066">03</text>
+<circle cx="890" cy="55" r="4" fill="#0A9181"/><circle class="live" style="animation-delay:1.80s" cx="890" cy="55" r="4" fill="#0A9181"/>
+<text x="672" y="84" font-size="14" fill="#0A9181">Air-gapped, zero-retention RAG</text>
+<text x="670" y="146" font-size="44" font-weight="700" fill="#0B1F24">4.5x</text>
+<text x="672" y="176" font-size="16" fill="#23383D">faster legal document review</text>
+<text x="672" y="200" font-size="14" fill="#4A6066">Full data sovereignty</text>
+<rect x="672" y="216" width="248" height="3" rx="1.5" fill="#0A9181" fill-opacity=".14"/><rect class="prog" style="animation-delay:1.80s" x="672" y="216" width="248" height="3" rx="1.5" fill="#0A9181"/>
+<rect x="960" y="20" width="296" height="214" rx="14" fill="#FFFFFF" fill-opacity=".92"/><rect class="hl" style="animation-delay:2.70s" x="960.5" y="20.5" width="295" height="213" rx="14" fill="none" stroke="#0A9181" stroke-opacity=".22"/>
+<text x="984" y="60" font-size="20" font-weight="700" letter-spacing="1" fill="#0B1F24">QWIRVA</text>
+<text x="1232" y="60" font-size="13" font-weight="600" text-anchor="end" fill="#4A6066">04</text>
+<circle cx="1202" cy="55" r="4" fill="#0A9181"/><circle class="live" style="animation-delay:2.70s" cx="1202" cy="55" r="4" fill="#0A9181"/>
+<text x="984" y="84" font-size="14" fill="#0A9181">B2B sales automation · with Aghrba</text>
+<text x="982" y="146" font-size="44" font-weight="700" fill="#0B1F24">250K+</text>
+<text x="984" y="176" font-size="16" fill="#23383D">B2B leads graded</text>
+<text x="984" y="200" font-size="14" fill="#4A6066">3.2x more qualified appointments</text>
+<rect x="984" y="216" width="248" height="3" rx="1.5" fill="#0A9181" fill-opacity=".14"/><rect class="prog" style="animation-delay:2.70s" x="984" y="216" width="248" height="3" rx="1.5" fill="#0A9181"/>
+<rect x="24" y="250" width="400" height="214" rx="14" fill="#FFFFFF" fill-opacity=".92"/><rect class="hl" style="animation-delay:3.60s" x="24.5" y="250.5" width="399" height="213" rx="14" fill="none" stroke="#0A9181" stroke-opacity=".22"/>
+<text x="48" y="290" font-size="20" font-weight="700" letter-spacing="1" fill="#0B1F24">SUNDIAL</text>
+<text x="400" y="290" font-size="13" font-weight="600" text-anchor="end" fill="#4A6066">05</text>
+<circle cx="370" cy="285" r="4" fill="#0A9181"/><circle class="live" style="animation-delay:3.60s" cx="370" cy="285" r="4" fill="#0A9181"/>
+<text x="48" y="314" font-size="14" fill="#0A9181">Autonomous agent infrastructure</text>
+<text x="46" y="376" font-size="44" font-weight="700" fill="#0B1F24">99.99%</text>
+<text x="48" y="406" font-size="16" fill="#23383D">uninterrupted overnight operation</text>
+<text x="48" y="430" font-size="14" fill="#4A6066">Across multi-agent workloads</text>
+<rect x="48" y="446" width="352" height="3" rx="1.5" fill="#0A9181" fill-opacity=".14"/><rect class="prog" style="animation-delay:3.60s" x="48" y="446" width="352" height="3" rx="1.5" fill="#0A9181"/>
+<rect x="440" y="250" width="400" height="214" rx="14" fill="#FFFFFF" fill-opacity=".92"/><rect class="hl" style="animation-delay:4.50s" x="440.5" y="250.5" width="399" height="213" rx="14" fill="none" stroke="#0A9181" stroke-opacity=".22"/>
+<text x="464" y="290" font-size="20" font-weight="700" letter-spacing="1" fill="#0B1F24">QuranMath</text>
+<text x="816" y="290" font-size="13" font-weight="600" text-anchor="end" fill="#4A6066">06</text>
+<circle cx="786" cy="285" r="4" fill="#0A9181"/><circle class="live" style="animation-delay:4.50s" cx="786" cy="285" r="4" fill="#0A9181"/>
+<text x="464" y="314" font-size="14" fill="#0A9181">Classical Arabic NLP</text>
+<text x="462" y="376" font-size="44" font-weight="700" fill="#0B1F24">98.9%</text>
+<text x="464" y="406" font-size="16" fill="#23383D">semantic alignment</text>
+<text x="464" y="430" font-size="14" fill="#4A6066">Across 50K+ sessions</text>
+<rect x="464" y="446" width="352" height="3" rx="1.5" fill="#0A9181" fill-opacity=".14"/><rect class="prog" style="animation-delay:4.50s" x="464" y="446" width="352" height="3" rx="1.5" fill="#0A9181"/>
+<rect x="856" y="250" width="400" height="214" rx="14" fill="#FFFFFF" fill-opacity=".92"/><rect class="hl" style="animation-delay:5.40s" x="856.5" y="250.5" width="399" height="213" rx="14" fill="none" stroke="#0A9181" stroke-opacity=".22"/>
+<text x="880" y="290" font-size="20" font-weight="700" letter-spacing="1" fill="#0B1F24">Masar</text>
+<text x="1232" y="290" font-size="13" font-weight="600" text-anchor="end" fill="#4A6066">07</text>
+<circle cx="1202" cy="285" r="4" fill="#0A9181"/><circle class="live" style="animation-delay:5.40s" cx="1202" cy="285" r="4" fill="#0A9181"/>
+<text x="880" y="314" font-size="14" fill="#0A9181">Arabic-first generative AI</text>
+<text x="878" y="376" font-size="44" font-weight="700" fill="#0B1F24">10K+</text>
+<text x="880" y="406" font-size="16" fill="#23383D">business emails generated</text>
+<text x="880" y="430" font-size="14" fill="#4A6066">RTL formatting intact</text>
+<rect x="880" y="446" width="352" height="3" rx="1.5" fill="#0A9181" fill-opacity=".14"/><rect class="prog" style="animation-delay:5.40s" x="880" y="446" width="352" height="3" rx="1.5" fill="#0A9181"/>
+<g clip-path="url(#cards)"><rect class="sw" x="0" y="0" width="320" height="484" fill="url(#sheen)"/></g>
+</svg>

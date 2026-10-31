@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+<style>
+  .s{fill:none;stroke:#14B8A6;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+  .f{fill:#14B8A6}
+  .c1,.c2,.c3{animation:hue 6s linear infinite}.c1{fill:#14B8A6}.c2{fill:#F59E0B;animation-delay:-2s}.c3{fill:#EC4899;animation-delay:-4s}@keyframes hue{0%,100%{fill:#14B8A6}33%{fill:#F59E0B}66%{fill:#EC4899}}
+  @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect x="1" y="1" width="54" height="54" rx="14" fill="#14B8A6" fill-opacity=".12" stroke="#14B8A6" stroke-opacity=".35"/>
+<path class="s" d="M28 12 C18 12 12 19 12 27 C12 36 19 44 27 44 C31 44 31 40 29 38 C27 36 28 33 32 33 H37 C41 33 44 30 44 26 C44 18 37 12 28 12 Z"/><circle class="c1" cx="21" cy="25" r="3"/><circle class="c2" cx="28" cy="19" r="3"/><circle class="c3" cx="36" cy="22" r="3"/>
+</svg>

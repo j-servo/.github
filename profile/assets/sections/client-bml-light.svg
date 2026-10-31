@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="72" viewBox="0 0 340 72" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<style>
+
+.sw{animation:sw 6s ease-in-out infinite;animation-delay:0.0s}
+@keyframes sw{0%{transform:translateX(-200px)}50%,100%{transform:translateX(560px)}}
+.ring{transform-box:fill-box;transform-origin:center;animation:r 12s linear infinite}
+@keyframes r{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F7FBFB"/><stop offset="1" stop-color="#E3F1EF"/></linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#0B1F24" stroke-opacity=".05"/></pattern>
+  <linearGradient id="sheen" x1="0" x2="1"><stop offset="0" stop-color="#0A9181" stop-opacity="0"/><stop offset=".5" stop-color="#0A9181" stop-opacity=".16"/><stop offset="1" stop-color="#0A9181" stop-opacity="0"/></linearGradient>
+</defs>
+<clipPath id="c"><rect x="1" y="1" width="338" height="70" rx="36"/></clipPath>
+<rect x="1" y="1" width="338" height="70" rx="36" fill="#FFFFFF"/>
+<rect x="1.5" y="1.5" width="337" height="69" rx="35.5" fill="none" stroke="#0A9181" stroke-opacity=".35"/>
+<circle cx="37" cy="36" r="24" fill="#0A9181" fill-opacity=".14"/>
+<circle class="ring" cx="37" cy="36" r="27" fill="none" stroke="#0A9181" stroke-width="1.5" stroke-dasharray="4 6" stroke-opacity=".6"/>
+<text x="37" y="42" font-size="16" font-weight="700" text-anchor="middle" fill="#0A9181">BM</text>
+<text x="78" y="33" font-size="18" font-weight="600" fill="#0B1F24">Blue Marine Life</text>
+<text x="78" y="54" font-size="13" letter-spacing="1" fill="#4A6066">bluemarinelife.qa</text>
+<g clip-path="url(#c)"><rect class="sw" x="0" y="0" width="140" height="72" fill="url(#sheen)"/></g>
+</svg>

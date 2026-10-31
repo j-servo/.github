@@ -139,11 +139,17 @@ great houses of learning: the **House of Wisdom** in Abbasid Baghdad and the **H
 
 Production systems delivered for clients and partners. These are outcomes as reported in our [case studies](https://jservo.com/case-studies/).
 
+<a href="https://jservo.com/case-studies/">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/stats-dark.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/stats-light.svg?v=2">
-  <img alt="70%+ support queries automated · 4.5x faster legal review · 250K+ B2B leads graded · 99.99% agent uptime" src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/stats-dark.svg?v=2" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/sections/cases-dark.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/sections/cases-light.svg?v=1">
+  <img alt="POJEHAT: 70%+ of tier-1 queries automated. DELTA: 65% shorter drafting cycles. BRICS: 4.5x faster legal review. QWIRVA: 250K+ leads graded. SUNDIAL: 99.99% overnight uptime. QuranMath: 98.9% semantic alignment. Masar: 10K+ business emails generated." src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/sections/cases-dark.svg?v=1" width="100%">
 </picture>
+</a>
+
+<details>
+<summary><b>Read the full outcomes</b></summary>
+<br>
 
 | Engagement | Domain | Outcome |
 | :--- | :--- | :--- |
@@ -155,19 +161,51 @@ Production systems delivered for clients and partners. These are outcomes as rep
 | **QuranMath** | Classical Arabic NLP | 98.9% semantic alignment across 50K+ sessions |
 | **Masar** | Arabic-first generative AI | 10K+ business emails generated, with RTL formatting intact |
 
-<sub>Clients include <a href="https://bluemarinelife.qa">Blue Marine Life</a>, <a href="https://axleeng.net">Axle Engineering</a> and <a href="https://xyz-survey.com">XYZ Survey</a>.</sub>
+</details>
+
+<p align="center"><sub><b>TRUSTED BY</b></sub></p>
+
+<p align="center">
+  <a href="https://bluemarinelife.qa"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/sections/client-bml-dark.svg?v=1"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/sections/client-bml-light.svg?v=1"><img alt="Blue Marine Life" src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/sections/client-bml-dark.svg?v=1" width="31%"></picture></a>
+  <a href="https://axleeng.net"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/sections/client-axle-dark.svg?v=1"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/sections/client-axle-light.svg?v=1"><img alt="Axle Engineering" src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/sections/client-axle-dark.svg?v=1" width="31%"></picture></a>
+  <a href="https://xyz-survey.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/sections/client-xyz-dark.svg?v=1"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/sections/client-xyz-light.svg?v=1"><img alt="XYZ Survey" src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/sections/client-xyz-dark.svg?v=1" width="31%"></picture></a>
+</p>
 
 <p align="center"><img src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/divider.svg?v=2" width="100%" alt=""></p>
 
 ## Products
 
-| Product | Description |
-| :--- | :--- |
-| **[Dragonfly AI Architect](https://jservo.com/dragonfly-ai-architect/)** | A visual, node-based environment for designing, connecting and deploying LLM agents into live workflows, with built-in ROI modelling |
-| **[AI ROI Calculator](https://jservo.com/ai-roi-calculator/)** | Risk-adjusted projections of savings, investment, payback and three-year ROI |
-| **[Masar](https://jservo.com/masar-arabic-email-generator/)** | Arabic-native business email generation |
-| **[Image & Color Studio](https://jservo.com/image-color-studio/)** | In-browser asset conversion and palette extraction powered by vision models |
-| **[AI Tool Finder](https://jservo.com/ai-tool-finder/)** · **[AI Comparison](https://jservo.com/ai-comparison-tool/)** · **[Prompt Generator](https://jservo.com/ai-prompt-generator/)** | Free tools for teams evaluating and adopting AI |
+<table>
+  <tr>
+    <td colspan="2" width="66%" valign="top">
+      <img src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/icons/dragonfly.svg?v=1" width="44" height="44" alt="">
+      <h4><a href="https://jservo.com/dragonfly-ai-architect/">Dragonfly AI Architect</a></h4>
+      A visual, node-based environment for designing, connecting and deploying LLM agents into live workflows, with built-in ROI modelling.
+    </td>
+    <td width="34%" valign="top">
+      <img src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/icons/roi.svg?v=1" width="44" height="44" alt="">
+      <h4><a href="https://jservo.com/ai-roi-calculator/">AI ROI Calculator</a></h4>
+      Risk-adjusted projections of savings, investment, payback and three-year ROI.
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <img src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/icons/masar.svg?v=1" width="44" height="44" alt="">
+      <h4><a href="https://jservo.com/masar-arabic-email-generator/">Masar</a></h4>
+      Arabic-native business email generation.
+    </td>
+    <td width="33%" valign="top">
+      <img src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/icons/studio.svg?v=1" width="44" height="44" alt="">
+      <h4><a href="https://jservo.com/image-color-studio/">Image & Color Studio</a></h4>
+      In-browser asset conversion and palette extraction powered by vision models.
+    </td>
+    <td width="34%" valign="top">
+      <img src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/icons/tools.svg?v=1" width="44" height="44" alt="">
+      <h4>Free AI tools</h4>
+      <a href="https://jservo.com/ai-tool-finder/">Tool Finder</a> · <a href="https://jservo.com/ai-comparison-tool/">Comparison</a> · <a href="https://jservo.com/ai-prompt-generator/">Prompt Generator</a>, for teams evaluating and adopting AI.
+    </td>
+  </tr>
+</table>
 
 <p align="center"><img src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/divider.svg?v=2" width="100%" alt=""></p>
 
@@ -175,62 +213,54 @@ Production systems delivered for clients and partners. These are outcomes as rep
 
 Engagements follow the **[J. SERVO AI Blueprint™](https://jservo.com/ai-transformation-blueprint/)**, a 90-day path from assessment to measurable return.
 
-<table>
-  <tr>
-    <th width="20%">01 · Discover</th>
-    <th width="20%">02 · Design</th>
-    <th width="20%">03 · Build</th>
-    <th width="20%">04 · Deploy</th>
-    <th width="20%">05 · Optimize</th>
-  </tr>
-  <tr>
-    <td valign="top"><sub>WEEK 1</sub><br>Assessment, top opportunities, KPIs and ROI case</td>
-    <td valign="top"><sub>WEEKS 2–3</sub><br>Architecture, UX, integrations and success metrics</td>
-    <td valign="top"><sub>WEEKS 4–8</sub><br>Agile sprints, weekly reviews and continuous testing</td>
-    <td valign="top"><sub>WEEKS 9–10</sub><br>Phased rollout, training and go-live support</td>
-    <td valign="top"><sub>ONGOING</sub><br>Usage analytics, iteration and expansion</td>
-  </tr>
-</table>
+<a href="https://jservo.com/ai-transformation-blueprint/">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/sections/blueprint-dark.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/sections/blueprint-light.svg?v=1">
+  <img alt="01 Discover (week 1): assessment, top opportunities, KPIs and ROI case. 02 Design (weeks 2–3): architecture, UX, integrations and success metrics. 03 Build (weeks 4–8): agile sprints, weekly reviews and continuous testing. 04 Deploy (weeks 9–10): phased rollout, training and go-live support. 05 Optimize (ongoing): usage analytics, iteration and expansion." src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/sections/blueprint-dark.svg?v=1" width="100%">
+</picture>
+</a>
 
-Every solution is held to five standards: **Credibility, Usability, Visibility, Sellability and Scalability.**
-We work in three models, Starter, Growth and Transformation, each with fixed deliverables and transparent pricing.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/sections/principles-dark.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/sections/principles-light.svg?v=1">
+  <img alt="Five standards: Credibility, Usability, Visibility, Sellability and Scalability. Three engagement models: Starter, Growth and Transformation, each with fixed deliverables and transparent pricing." src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/sections/principles-dark.svg?v=1" width="100%">
+</picture>
 
 <p align="center"><img src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/divider.svg?v=2" width="100%" alt=""></p>
 
 ## Technology
 
-<p>
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js">
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
-  <img src="https://img.shields.io/badge/three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" alt="three.js">
-  <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n">
-  <img src="https://img.shields.io/badge/Qdrant-DC244C?style=flat-square" alt="Qdrant">
-  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama">
-  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini">
-  <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude">
-  <img src="https://img.shields.io/badge/Twilio-F22F46?style=flat-square&logo=twilio&logoColor=white" alt="Twilio">
-  <img src="https://img.shields.io/badge/WhatsApp_API-25D366?style=flat-square&logo=whatsapp&logoColor=white" alt="WhatsApp API">
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/sections/tech-dark.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/sections/tech-light.svg?v=1">
+  <img alt="Interfaces: Next.js, React, TypeScript, three.js. Services: Node.js, Python, FastAPI. Intelligence: Claude, Gemini, Ollama, PyTorch, Qdrant. Automation: n8n, Twilio, WhatsApp API." src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/sections/tech-dark.svg?v=1" width="100%">
+</picture>
 
 <p align="center"><img src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/divider.svg?v=2" width="100%" alt=""></p>
 
 ## Work with us
 
-We offer a complimentary **AI Readiness Assessment** of 60 to 90 minutes. It reviews your workflows, ranks your highest-value opportunities, projects ROI and drafts a roadmap.
+<a href="https://jservo.com/contact-us/">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/sections/cta-dark.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/sections/cta-light.svg?v=1">
+  <img alt="Complimentary AI Readiness Assessment, 60 to 90 minutes: we review your workflows, rank the highest-value opportunities, project the ROI and draft your roadmap." src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/sections/cta-dark.svg?v=1" width="100%">
+</picture>
+</a>
 
-<p>
-  <a href="https://jservo.com/contact-us/"><img src="https://img.shields.io/badge/Book_an_assessment-0A9181?style=for-the-badge" alt="Book an assessment"></a>
+<p align="center">
+  <a href="https://jservo.com/contact-us/"><img src="https://img.shields.io/badge/Book_an_assessment-0A9181?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Book an assessment"></a>
   <a href="mailto:yousef@jservo.com"><img src="https://img.shields.io/badge/yousef@jservo.com-1F2937?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://linkedin.com/company/jservo"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 </p>
 
 <br>
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/sections/footer-dark.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/sections/footer-light.svg?v=1">
+  <img alt="J. SERVO · Your AI Partner in Business · Cairo, Egypt" src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/sections/footer-dark.svg?v=1" width="100%">
+</picture>
 
-<sub>© 2026 J. SERVO LLC · Cairo, Egypt · <a href="https://jservo.com/privacy-policy/">Privacy</a> · <a href="https://jservo.com/terms-of-service/">Terms</a> · <a href="https://jservo.com/ai-disclaimer/">AI Disclaimer</a></sub>
+<p align="center"><sub>© 2026 J. SERVO LLC · <a href="https://jservo.com/privacy-policy/">Privacy</a> · <a href="https://jservo.com/terms-of-service/">Terms</a> · <a href="https://jservo.com/ai-disclaimer/">AI Disclaimer</a></sub></p>
