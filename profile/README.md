@@ -69,15 +69,13 @@ against agreed KPIs, and ships as infrastructure our clients own, with no vendor
 
 <p align="center"><img src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/divider.svg?v=2" width="100%" alt=""></p>
 
-## Open source
+## Showcase
 
-<a href="https://github.com/j-servo/diwan">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/diwan-dark.svg?v=1">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/diwan-light.svg?v=1">
-    <img alt="Diwan: houses of knowledge for your AI agents" src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/diwan-dark.svg?v=1" width="100%">
-  </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/diwan-dark.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/diwan-light.svg?v=1">
+  <img alt="Diwan: houses of knowledge for your AI agents" src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/diwan-dark.svg?v=1" width="100%">
+</picture>
 
 **Diwan** turns every Claude Code session on your machine into a scholar in a live 3D diorama of history's
 great houses of learning: the **House of Wisdom** in Abbasid Baghdad and the **House of Life** in Ptolemaic Egypt.
@@ -105,24 +103,22 @@ great houses of learning: the **House of Wisdom** in Abbasid Baghdad and the **H
 <table>
   <tr>
     <td width="33%" align="center">
-      <a href="https://github.com/j-servo/diwan"><img src="https://raw.githubusercontent.com/j-servo/diwan/main/docs/superpowers/m1/img/frame-1-golden-wide.jpg" alt="The House of Wisdom at golden hour" width="100%"></a>
+      <img src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/diwan/frame-1-golden-wide.jpg" alt="The House of Wisdom at golden hour" width="100%">
       <sub>The House of Wisdom at golden hour</sub>
     </td>
     <td width="33%" align="center">
-      <a href="https://github.com/j-servo/diwan"><img src="https://raw.githubusercontent.com/j-servo/diwan/main/docs/superpowers/m1/img/frame-6-ui-bubbles.jpg" alt="Live agent activity above each scholar" width="100%"></a>
+      <img src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/diwan/frame-6-ui-bubbles.jpg" alt="Live agent activity above each scholar" width="100%">
       <sub>Live activity above every scholar</sub>
     </td>
     <td width="33%" align="center">
-      <a href="https://github.com/j-servo/diwan"><img src="https://raw.githubusercontent.com/j-servo/diwan/main/docs/superpowers/m1/img/frame-8-armillary.jpg" alt="The armillary sphere at the heart of the court" width="100%"></a>
+      <img src="https://raw.githubusercontent.com/j-servo/.github/main/profile/assets/diwan/frame-8-armillary.jpg" alt="The armillary sphere at the heart of the court" width="100%">
       <sub>The armillary at the heart of the court</sub>
     </td>
   </tr>
 </table>
 
 <p align="center">
-  <a href="https://github.com/j-servo/diwan"><img src="https://img.shields.io/badge/View_on_GitHub-C9962E?style=for-the-badge&logo=github&logoColor=white" alt="View Diwan on GitHub"></a>
-  &nbsp;
-  <a href="https://github.com/j-servo/diwan#readme"><img src="https://img.shields.io/badge/Get_started-0A9181?style=for-the-badge&logo=gitbook&logoColor=white" alt="Get started with Diwan"></a>
+  <a href="https://jservo.com/contact-us/"><img src="https://img.shields.io/badge/Request_a_demo-C9962E?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Request a Diwan demo"></a>
 </p>
 
 <p align="center">
